@@ -7,7 +7,9 @@ public class Main {
 
         System.out.println("Hello world!");
 
-        Playground.declarations();
+//        Playground.declarations();
+
+        Playground.dataStructures();
 
     }
 }

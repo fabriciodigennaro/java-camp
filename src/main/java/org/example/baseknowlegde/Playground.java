@@ -25,4 +25,10 @@ public class Playground {
 
         System.out.println(declarations2);
     }
+
+    public static void dataStructures() {
+//        DataStructures.arrays();
+//        DataStructures.lists();
+        DataStructures.maps();
+    }
 }
