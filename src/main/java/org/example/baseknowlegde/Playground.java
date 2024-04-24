@@ -31,4 +31,9 @@ public class Playground {
 //        DataStructures.lists();
         DataStructures.maps();
     }
+
+    public static void conditionals() {
+//        Conditionals.ifElse();
+        Conditionals.switchStatement();
+    }
 }

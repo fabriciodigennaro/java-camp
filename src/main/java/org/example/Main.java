@@ -9,7 +9,8 @@ public class Main {
 
 //        Playground.declarations();
 
-        Playground.dataStructures();
+//        Playground.dataStructures();
 
+        Playground.conditionals();
     }
 }
