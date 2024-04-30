@@ -11,6 +11,9 @@ public class Main {
 
 //        Playground.dataStructures();
 
-        Playground.conditionals();
+//        Playground.controlStatements();
+
+        Playground.loops();
     }
+
 }

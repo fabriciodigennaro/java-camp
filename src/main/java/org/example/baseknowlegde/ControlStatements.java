@@ -1,8 +1,6 @@
 package org.example.baseknowlegde;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class Conditionals {
+public class ControlStatements {
 
     public static void ifElse() {
         long counter = Math.round(Math.random() * 10);
@@ -40,6 +38,27 @@ public class Conditionals {
 
         // See switch evolution from java 7 to 17: https://medium.com/@javatechie/the-evolution-of-switch-statement-from-java-7-to-java-17-4b5eee8d29b7
 
-
     }
+
+    public static void tryCatchStatement() {
+
+        try {
+            long counter = Math.round(Math.random() * 10);
+            System.out.println(counter);
+            if (counter % 2 == 0) {
+                throw new IllegalArgumentException();
+            } else if (counter == 5) {
+                throw new RuntimeException();
+            } else {
+                System.out.println("Try block executed without exceptions");
+            }
+        } catch (IllegalArgumentException exception) {
+            System.out.println("IllegalArgumentException happened");
+        } catch (RuntimeException exception) {
+            System.out.println("RuntimeException happened");
+        } finally {
+            System.out.println("Finally block executed");
+        }
+    }
+
 }

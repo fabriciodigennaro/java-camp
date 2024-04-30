@@ -32,8 +32,19 @@ public class Playground {
         DataStructures.maps();
     }
 
-    public static void conditionals() {
-//        Conditionals.ifElse();
-        Conditionals.switchStatement();
+    public static void controlStatements() {
+//        ControlStatements.ifElse();
+//        ControlStatements.switchStatement();
+        ControlStatements.tryCatchStatement();
     }
+
+    public static void loops() {
+//        Loops.whileLoop();
+//        Loops.doWhileLoop();
+//        Loops.forLoop();
+//        Loops.foreachLoop();
+//        Loops.forEachMethod();
+        Loops.streams();
+    }
+
 }
