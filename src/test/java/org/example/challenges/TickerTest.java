@@ -22,7 +22,7 @@ class TickerTest {
     @Test
     @DisplayName("Fill the window with text")
     void fillWindowWithText() {
-        assertEquals("Hello     ", Ticker.ticker("Hello", 10, 10));
+        assertEquals("Hello     ", Ticker.ticker("Hello", 10, 40));
         assertEquals("ello      ", Ticker.ticker("Hello", 10, 11));
     }
 

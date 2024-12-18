@@ -16,11 +16,10 @@ ticker("Hello world!", 10, 4)   // "      Hell"
 
 public class Ticker {
     public static String ticker(String text, int width, int tick) {
-        String padding = " ".repeat(width);
-        String fullMessage = padding + text + padding;
-
-        int cycleLength = text.length() + width;
-        int startIndex = tick % cycleLength;
+        String blanks = " ".repeat(width);
+        String fullMessage = blanks + text + blanks;
+        int totalLength = text.length() + width;
+        int startIndex = tick % totalLength;
 
         return fullMessage.substring(startIndex, startIndex + width);
     }
